@@ -1,0 +1,36 @@
+Sistema de Registro de productos.
+
+La interfaz deberá validar y guardar los datos del formulario en una base de datos.
+
+En este archivo se indica los pasos para poder instalar el proyecto.
+
+Versión PHP 8.0.30. 
+Versión MySql 10.4.32-MariaDB
+
+Actualmente está en un repositorio público git en Github:
+https://github.com/joltrar/Formulario/
+
+El proyecto consiste en un formulario con distintos campos relacionados a producto:
+-codigo
+-nombre
+-bodega
+-sucursal
+-moneda
+-precio
+-materiales
+-descripcion
+
+Pasos para instalar el proyecto
+Se requiere tener acceso (o tener instalado) una base de datos Mysql.
+
+Se requiere crear una base de datos "empresa" con las tablas:
+-productos
+-bodega
+-sucursal
+-moneda
+Esta estructura se encuentra en el archivo SQL/empresa.sql
+
+Se requiere tener acceso (o tener instalado) un servidor para PHP (Apache o equivalente).
+
+Si se configura en una ambiente local, la url de acceso sería, si se ubica en directorio "demo" (en localhost):
+http://localhost/demo/index.php
